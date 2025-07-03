@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação Segura Senior - Sua Proteção Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">🛡️ Navegação Segura Senior</h1>
+            <p class="header__subtitle">Sua Proteção Digital</p>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav__list">
+                <li><button class="nav__button nav__button--active" data-section="home">Início</button></li>
+                <li><button class="nav__button" data-section="learn">Aprenda</button></li>
+                <li><button class="nav__button" data-section="quiz">Teste seus Conhecimentos</button></li>
+                <li><button class="nav__button" data-section="emergency">Emergência</button></li>
+                <li><button class="nav__button" data-section="tips">Dicas Rápidas</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <!-- Seção Inicial -->
+            <section id="home" class="section section--active">
+                <div class="welcome">
+                    <h2 class="welcome__title">Bem-vindo à sua proteção digital!</h2>
+                    <p class="welcome__text">
+                        Aprenda a navegar na internet de forma segura e proteja-se contra golpes digitais. 
+                        Este site foi criado especialmente para pessoas da terceira idade que querem usar 
+                        a tecnologia com segurança e confiança.
+                    </p>
+                    <div class="welcome__cards">
+                        <div class="welcome__card">
+                            <h3>📚 Aprenda</h3>
+                            <p>Lições práticas sobre segurança digital</p>
+                        </div>
+                        <div class="welcome__card">
+                            <h3>🧠 Teste</h3>
+                            <p>Verifique seus conhecimentos</p>
+                        </div>
+                        <div class="welcome__card">
+                            <h3>🚨 Emergência</h3>
+                            <p>Contatos úteis para ajuda imediata</p>
+                        </div>
+                        <div class="welcome__card">
+                            <h3>💡 Dicas</h3>
+                            <p>Orientações rápidas e práticas</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Aprenda -->
+            <section id="learn" class="section">
+                <h2 class="section__title">📚 Lições de Segurança Digital</h2>
+                <div id="lessons-list" class="lessons">
+                    <!-- Lições serão carregadas aqui via JavaScript -->
+                </div>
+                <div id="lesson-detail" class="lesson-detail hidden">
+                    <button id="back-to-lessons" class="btn btn--secondary">← Voltar às Lições</button>
+                    <div id="lesson-content"></div>
+                </div>
+            </section>
+
+            <!-- Seção Quiz -->
+            <section id="quiz" class="section">
+                <h2 class="section__title">🧠 Teste seus Conhecimentos</h2>
+                <div id="quiz-intro" class="quiz-intro">
+                    <p class="quiz-intro__text">
+                        Responda às perguntas abaixo para testar seus conhecimentos sobre segurança digital. 
+                        Você receberá feedback imediato para cada resposta.
+                    </p>
+                    <button id="start-quiz" class="btn btn--primary btn--lg">Iniciar Teste</button>
+                </div>
+                <div id="quiz-content" class="quiz-content hidden">
+                    <div class="quiz-progress">
+                        <span id="quiz-question-number">Pergunta 1 de 10</span>
+                        <div class="progress-bar">
+                            <div id="progress-fill" class="progress-fill"></div>
+                        </div>
+                    </div>
+                    <div id="quiz-question" class="quiz-question"></div>
+                    <div id="quiz-feedback" class="quiz-feedback hidden"></div>
+                    <button id="next-question" class="btn btn--primary hidden">Próxima Pergunta</button>
+                </div>
+                <div id="quiz-results" class="quiz-results hidden">
+                    <h3>Parabéns! Você completou o teste!</h3>
+                    <div id="quiz-score" class="quiz-score"></div>
+                    <button id="restart-quiz" class="btn btn--primary">Fazer Teste Novamente</button>
+                </div>
+            </section>
+
+            <!-- Seção Emergência -->
+            <section id="emergency" class="section">
+                <h2 class="section__title">🚨 Emergência - Precisa de Ajuda?</h2>
+                <div class="emergency">
+                    <div class="emergency__alert">
+                        <h3>⚠️ Suspeita que caiu em um golpe?</h3>
+                        <p>Mantenha a calma e siga os passos abaixo:</p>
+                        <ol class="emergency__steps">
+                            <li>Não forneça mais informações pessoais</li>
+                            <li>Entre em contato com seu banco imediatamente</li>
+                            <li>Registre um boletim de ocorrência</li>
+                            <li>Procure ajuda de familiares ou pessoas de confiança</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="contacts">
+                        <h3>📞 Contatos Úteis</h3>
+                        <div id="emergency-contacts" class="contacts__list">
+                            <!-- Contatos serão carregados aqui via JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Dicas Rápidas -->
+            <section id="tips" class="section">
+                <h2 class="section__title">💡 Dicas Rápidas de Segurança</h2>
+                <div id="quick-tips" class="tips">
+                    <!-- Dicas serão carregadas aqui via JavaScript -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Navegação Segura Senior - Projeto Educativo de Segurança da Informação</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

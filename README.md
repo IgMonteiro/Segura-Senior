@@ -49,3 +49,10 @@ Linguagem clara e acessível
 
 ![image](https://github.com/user-attachments/assets/f34d4a5e-890a-458d-9461-0b18ee9c3c20)
 
+![image](https://github.com/user-attachments/assets/0e2cc9f5-ce9e-432a-a581-9d47db6607b5)
+
+![image](https://github.com/user-attachments/assets/e1d4654f-8fbc-4068-a824-0e3a565025e2)
+
+![image](https://github.com/user-attachments/assets/a3e06e55-b35b-4070-b7ed-67491ae94a5b)
+
+![image](https://github.com/user-attachments/assets/c7d3dc78-6718-418f-b72e-76bd25091e83)

@@ -46,3 +46,6 @@ Linguagem clara e acessível
 Ícones intuitivos
 
 🎨 Design Acessível
+
+![image](https://github.com/user-attachments/assets/f34d4a5e-890a-458d-9461-0b18ee9c3c20)
+
